@@ -9,7 +9,7 @@ void login(char *name, char *password)
 	{
 		printf("No person named %s found.\nName: %s\nNew Password: %s\n", name,name,password);
 		fopen(name, "w");
-		fprintf(fopen(name,"w"), "%s", password);
+		fprintf(fopen(name,"w"), "%s\n%s", password,"0");
 		exit(0);
 	}
 	FILE *loginFile = fopen(name, "r");
