@@ -12,7 +12,7 @@ int main()
 	printf("\033[0;32mPlease enter your hashed limit: \033[0;34m");
 	short limit = 0;
 	scanf("%hi", &limit);
-	if(limit >10 || limit < 1)
+	if(limit >5 || limit < 1)
 	{
 		puts("\033[0;31m Invalid limit !!");
 		exit(0);

@@ -12,7 +12,7 @@ int main()
 	puts("\n");
 	printf("\033[0;32mPlease enter your sentence hashing limit:\033[0;34m ");
 	scanf("%hi",&limit);
-	if(limit < 1 || limit > 10)
+	if(limit < 1 || limit > 5)
 	{
 		puts("\033[0;31mLimit not valid!!\nPlease enter between 1 to 10 next time");
 		exit(0);
